@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://thilinaile.github.io/Resume-Thilina/"
+    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
