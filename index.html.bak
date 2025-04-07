@@ -73,14 +73,14 @@
           </div>
           <p class="mb-5">Senior IT professional with 10+ years experience in system administration handled key delivery channels(ex. ATM, POS networks) with Linux and Windows servers. Consistently responds to a wide range of technical challenges with a focused and creative approach. Highly effective at problem solving and decision making.</p>
           <ul class="list-inline list-social-icons mb-0">
-         <!--   <li class="list-inline-item">
+            <li class="list-inline-item">
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
-            </li> -->
+            </li>
          <!--   <li class="list-inline-item">
               <a href="#">
                 <span class="fa-stack fa-lg">
@@ -90,7 +90,7 @@
               </a>
             </li> -->
             <li class="list-inline-item">
-              <a href="www.linkedin.com/in/thilina-ileperuma-08aaa08">
+              <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
