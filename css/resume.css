@@ -114,6 +114,3 @@ a {
   a:hover, a:focus, a:active {
     color: #824027; }
 	
-.email-lowercase {
-  text-transform: none !important;
-}
