@@ -43,7 +43,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -64,56 +64,53 @@
     <div class="container-fluid p-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Thilina
-            <span class="text-primary">Ileperuma</span>
-          </h1>
-          <div class="subheading mb-5">Hamilton, New Zealand · 0224846300 ·
-            <a href="mailto:thilinailie@gmail.com" class="email-lowercase">
-				thilinailie@gmail.com
-			</a>
-          </div>
-          <p class="mb-5">Senior IT professional with 10+ years experience in system administration handled key delivery channels(ex. ATM, POS networks) with Linux and Windows servers. Consistently responds to a wide range of technical challenges with a focused and creative approach. Highly effective at problem solving and decision making.</p>
-          <ul class="list-inline list-social-icons mb-0">
-         <!--   <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
-         <!--   <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/thilina-ileperuma-08aaa08" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-        <!--    <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
-          </ul> 
-        </div>
-      </section>
+  <div class="my-auto">
+    <h1 class="mb-0">Thilina
+      <span class="text-primary">Ileperuma</span>
+    </h1>
+
+    <div class="subheading mb-4">
+      <i class="fa fa-map-marker"></i> Hamilton, New Zealand &nbsp; · &nbsp;
+      <i class="fa fa-phone"></i> 022 484 6300 &nbsp; · &nbsp;
+      <i class="fa fa-envelope"></i>
+      <a href="mailto:thilinaile@gmail.com" class="email-lowercase">thilinaile@gmail.com</a>
+    </div>
+
+    <p class="mb-4">
+      <strong>Hi! 👋</strong><br>
+      I’m an IT systems professional with over <strong>10 years of hands-on experience</strong> working in the banking sector,
+      where I supported and maintained large-scale <strong>Linux and Windows environments</strong>, including
+      <strong>ATM and POS networks</strong> used across hundreds of branches. Over the years, I’ve worked closely with
+      infrastructure, security, and vendor teams to keep critical systems running reliably in
+      <strong>high-availability, real-world environments</strong>.
+    </p>
+
+    <p class="mb-4">
+      I’m currently based in <strong>Hamilton, New Zealand</strong>, where I’m completing my
+      <strong>Master of Applied Information Technology at WINTEC</strong>. Alongside my studies, I’ve been gaining local work
+      experience with <strong>NZ Post</strong> and volunteering at a
+      <strong>New Zealand Red Cross retail store</strong>, which has helped me quickly adapt to the New Zealand work culture
+      and strengthen my customer-focused approach.
+    </p>
+
+    <p class="mb-4">
+      What really drives me is <strong>problem-solving</strong> — whether that’s troubleshooting a system issue,
+      improving reliability, or learning something new in cloud and modern infrastructure technologies.
+      I enjoy working in <strong>team environments</strong>, supporting end users, and continuously building my skills in
+      areas like <strong>Azure, AWS, systems administration, and cybersecurity</strong>.
+    </p>
+
+    <p class="mb-4">
+      I’m now looking for opportunities in
+      <strong>IT Support, Junior Engineer, or Systems Administrator roles</strong>, where I can contribute my experience,
+      keep learning, and grow within a supportive technical team.
+    </p>
+  </div>
+</section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5">Work Experience</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -170,6 +167,27 @@
           </div>
 
         </div>
+
+    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+      <div class="resume-content mr-auto">
+        <h3 class="mb-0">Processing Officer (Casual)</h3>
+        <div class="subheading mb-3">NZ Post – Waikato Operations Centre (Hamilton)</div>
+        <p>
+          Supported daily parcel and freight processing in a fast-paced operational environment, ensuring accuracy and on-time movement
+          of items in line with service standards. Strengthened teamwork, attention to detail, and customer-focused communication in a New Zealand workplace setting.
+        </p>
+        <ul>
+          <li>Processed and sorted freight following workflow procedures and delivery standards.</li>
+          <li>Verified labels and identified mislabelled or damaged items for corrective action.</li>
+          <li>Met accuracy and throughput targets while maintaining strong attention to detail.</li>
+          <li>Collaborated with supervisors and team members to maintain smooth operations during peak periods.</li>
+        </ul>
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">Nov 2025 – Present</span>
+      </div>
+    </div>
+
 
       </section>
 
@@ -298,7 +316,7 @@
               EVE-ng </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Microsoft Azure (working on)</li>		
+              Microsoft Azure /AWS(working on)</li>		
             <li>
               <i class="fa-li fa fa-check"></i>
               Problem Solving</li>	
@@ -309,7 +327,38 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="volunteer">
+  <div class="my-auto">
+    <h2 class="mb-5">Volunteer Experiences</h2>
+
+    <div class="resume-item mb-4">
+      <h3 class="mb-0">Volunteer Retail Assistant</h3>
+      <div class="subheading mb-2">New Zealand Red Cross – Hamilton East</div>
+      <p>
+        Supported daily retail operations by assisting customers, operating EFTPOS,
+        sorting and preparing donated goods, and maintaining tidy shop-floor layouts.
+        Gained hands-on experience in customer service, teamwork, and adapting to New Zealand
+        workplace culture in a fast-paced environment.
+      </p>
+    </div>
+  
+    <!--<div class="resume-item mb-4">
+      <h3 class="mb-0">Volunteer Experience (Add Title Here)</h3>
+      <div class="subheading mb-2">Organisation Name – Location</div>
+      <p class="mb-2">
+        Add 2–3 lines describing what you did, the environment (teamwork, customer service, events, logistics, etc.), and what you achieved.
+        Keep it simple and results-focused.
+      </p>
+      <img src="img/volunteer-2.png" class="img-fluid mb-3" alt="Volunteer activity screenshot">
+      <p class="mb-0">
+        <em>Tip:</em> Place your screenshot image inside the <code>img</code> folder and name it <code>volunteer-2.png</code> (or change the filename here).
+      </p>
+    </div> -->
+
+</div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
           <p>Apart from being a systems administrator, I enjoy most of my time being travelling and looking to improve my photography as I'm keen on photography field.</p>
