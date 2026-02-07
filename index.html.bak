@@ -351,13 +351,14 @@
 
     <!-- Soft Skills -->
     <div class="subheading mb-3">Soft Skills</div>
-    <ul class="fa-ul mb-0">
+    <ul class="fa-ul mb-4">
       <li><i class="fa-li fa fa-check"></i><strong>Communication:</strong> clear updates to stakeholders and end users</li>
       <li><i class="fa-li fa fa-check"></i><strong>Problem-solving:</strong> structured troubleshooting and root-cause thinking</li>
       <li><i class="fa-li fa fa-check"></i><strong>Teamwork:</strong> effective collaboration across technical and non-technical teams</li>
       <li><i class="fa-li fa fa-check"></i><strong>Customer focus:</strong> professional support mindset from production + NZ roles</li>
       <li><i class="fa-li fa fa-check"></i><strong>Attention to detail:</strong> accurate work under deadlines and operational pressure</li>
     </ul>
+	
 	
 	<!-- Tools I Use -->
     <div class="subheading mb-3">Tools I Use</div>
