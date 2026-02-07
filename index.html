@@ -242,22 +242,52 @@
             </p>
 
 
-            <!-- Add your scanned letter pages here (one image per page) -->
-            <img src="img/appreciations/sampath-appreciation-1.jpg"
-                 class="img-fluid mb-3 d-block"
-                 style="max-width: 900px;"
-                 alt="Service Appreciation Letter (Page 1) – Sampath Bank PLC">
+            
+            <!-- Click-to-zoom gallery (thumbnails) -->
+            <div class="row">
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-1.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-1.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 1)">
+                  <img src="img/appreciations/sampath-appreciation-1.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 1) – Sampath Bank PLC">
+                </a>
+              </div>
 
-            <img src="img/appreciations/sampath-appreciation-2.jpg"
-                 class="img-fluid mb-3 d-block"
-                 style="max-width: 900px;"
-                 alt="Service Appreciation Letter (Page 2) – Sampath Bank PLC">
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-2.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-2.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 2)">
+                  <img src="img/appreciations/sampath-appreciation-2.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 2) – Sampath Bank PLC">
+                </a>
+              </div>
 
-            <img src="img/appreciations/sampath-appreciation-3.jpg"
-                 class="img-fluid mb-3 d-block"
-                 style="max-width: 900px;"
-                 alt="Service Appreciation Letter (Page 3) – Sampath Bank PLC">
-          </div>
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-3.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-3.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 3)">
+                  <img src="img/appreciations/sampath-appreciation-3.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 3) – Sampath Bank PLC">
+                </a>
+              </div>
+            </div>
+
+            <p class="text-muted mb-0" style="font-size: 0.95rem;">
+              Tip: Click any thumbnail to view the full-size page.
+            </p></div>
 </div>
 
 
@@ -536,6 +566,44 @@
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
 
-  </body>
+  
+  <!-- Appreciation Gallery Modal -->
+  <div class="modal fade" id="appreciationModal" tabindex="-1" role="dialog" aria-labelledby="appreciationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="appreciationModalLabel">Service Appreciation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img id="appreciationModalImg" src="" class="img-fluid" alt="Service Appreciation full-size">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    // Click-to-zoom gallery for Service Appreciations
+    (function() {
+      if (!window.jQuery) return;
+      $(document).on('click', '.appreciation-thumb', function(e) {
+        e.preventDefault();
+        var img = $(this).data('img');
+        var title = $(this).data('title') || 'Service Appreciation';
+        $('#appreciationModalLabel').text(title);
+        $('#appreciationModalImg').attr('src', img);
+      });
+
+      // Clear image when modal closes (prevents showing old image briefly)
+      $('#appreciationModal').on('hidden.bs.modal', function() {
+        $('#appreciationModalImg').attr('src', '');
+      });
+    })();
+  </script>
+
+</body>
 
 </html>
