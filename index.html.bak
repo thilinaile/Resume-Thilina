@@ -51,10 +51,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
-		  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Volunteer Experiences</a>
-          </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#volunteer">Volunteer Experiences</a>
+          </li>
+		  <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
         <!--  <li class="nav-item">
@@ -108,15 +108,16 @@
       <strong>IT Support, Junior Engineer, or Systems Administrator roles</strong>, where I can contribute my experience,
       keep learning, and grow within a supportive technical team.
     </p>
-	<li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/thilina-ileperuma-08aaa08" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-  </div>
+    <ul class="list-inline list-social-icons mb-0">
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/in/thilina-ileperuma-08aaa08" target="_blank" rel="noopener" title="LinkedIn">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+    </ul></div>
 </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
@@ -127,12 +128,19 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Senior Lead Systems Administrator</h3>
               <div class="subheading mb-3">Sampath Bank PLC, Sri Lanka</div>
-              <p>• Liaise with vendors to address system related issues and enhancements</p>
-			  <p>• Collaborate with business units to identify and evaluate potential enhancements,anticipating requirements</p>
-			  <p>• Procure & acquiring of POS terminals according to business / compliance requirements while adhering to the Bank’s RFP process and approvals</p>
-			  <p>• Coordinate with POS support team & relevant POS vendors to arrange infrastructure requirements for POS special projects held on temporary basis(ex. Annually, 06 months, etc.) according to business needs</p>
-			  <p>• Coordinate with relevant vendor/s & Bank’s IT team for testing and deployment of special projects according to business requirements</p>
-            </div>
+
+              <ul class="mb-0">
+                <li>Liaise with vendors to address system related issues and enhancements</li>
+                <li>Collaborate with business units to identify and evaluate potential enhancements,anticipating requirements</li>
+                <li>Procure & acquiring of POS terminals according to business / compliance requirements while adhering to the Bank’s RFP process and approvals</li>
+                <li>Coordinate with POS support team & relevant POS vendors to arrange infrastructure requirements for POS special projects held on temporary basis(ex. Annually, 06 months, etc.) according to business needs</li>
+                <li>Coordinate with relevant vendor/s & Bank’s IT team for testing and deployment of special projects according to business requirements</li>
+              </ul>
+
+
+
+
+</div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2024 - January 2025</span>
             </div>
@@ -142,10 +150,15 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Lead Systems Administrator</h3>
               <div class="subheading mb-3">Sampath Bank PLC, Sri Lanka</div>
-              <p>• System Administration of Card Management Systems , Implement and maintain PCIDSS standards in Card Management System components</p>
-			  <p>• Liaising with security vendors, suppliers, service providers and external resources; analyzing, recommending, installing and maintaining software security applications; and monitoring contractual obligations, performance delivery and service level agreements.(ex. ATM, POS, Card systems,etc.)</p>
-			  <p>• Handling Payment Schemes’ compliance projects and other Card Managements Systems related projects(ex. ATM EMV upgrade, QR based touchless ATM withdrawal, Wireme MiniPOS solution, etc.)</p>			  
-            </div>
+
+              <ul class="mb-0">
+                <li>System Administration of Card Management Systems , Implement and maintain PCIDSS standards in Card Management System components</li>
+                <li>Liaising with security vendors, suppliers, service providers and external resources; analyzing, recommending, installing and maintaining software security applications; and monitoring contractual obligations, performance delivery and service level agreements.(ex. ATM, POS, Card systems,etc.)</li>
+                <li>Handling Payment Schemes’ compliance projects and other Card Managements Systems related projects(ex. ATM EMV upgrade, QR based touchless ATM withdrawal, Wireme MiniPOS solution, etc.)</li>
+              </ul>
+
+
+</div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2021 - September 2024</span>
             </div>
@@ -155,31 +168,39 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Systems Administrator</h3>
               <div class="subheading mb-3">Sampath Bank PLC, Sri Lanka</div>
-              <p>• Performed software installations and upgrades to UNIX or Windows operating systems.(ex. ATM, Card Systems)(ex. RedHat,CentOS, AIX, Win.Server)</p>
-			  <p>• Contributed to development, administration and testing of disaster recovery plans</p>
-			  <p>• Conducted routine and emergency maintenance of assigned data center equipment</p>
-			  <p>• Delivered Tier 2 support for problem identification, diagnosis and issue resolution(ATM, POS, Card Systems, etc.)</p>
-			  <p>• Tested software remotely and onsite for server sets to maintain operational readiness</p>
-            </div>
+
+              <ul class="mb-0">
+                <li>Performed software installations and upgrades to UNIX or Windows operating systems.(ex. ATM, Card Systems)(ex. RedHat,CentOS, AIX, Win.Server)</li>
+                <li>Contributed to development, administration and testing of disaster recovery plans</li>
+                <li>Conducted routine and emergency maintenance of assigned data center equipment</li>
+                <li>Delivered Tier 2 support for problem identification, diagnosis and issue resolution(ATM, POS, Card Systems, etc.)</li>
+                <li>Tested software remotely and onsite for server sets to maintain operational readiness</li>
+              </ul>
+
+
+
+
+</div>
             <div class="resume-date text-md-right">
               <span class="text-primary">April 2014 - September 2021</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Customer service representative(Junior Executive-I Grade)</h3>
               <div class="subheading mb-3">Sampath Bank PLC, Sri Lanka</div>
-              <p>• Teller, Accounts handling, respond to customer inquiries at several Sampath Bank branches</p>
-            </div>
+
+              <ul class="mb-0">
+                <li>Teller, Accounts handling, respond to customer inquiries at several Sampath Bank branches</li>
+              </ul>
+</div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May 2011 - April 2014</span>
             </div>
           </div>
 
-        </div>
-
-    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
       <div class="resume-content mr-auto">
         <h3 class="mb-0">Processing Officer (Casual)</h3>
         <div class="subheading mb-3">NZ Post – Waikato Operations Centre (Hamilton)</div>
@@ -217,7 +238,7 @@
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Sri Lanka Institute of Information Technology(SLIIT), Sri Lanka</h3>
               <div class="subheading mb-3">BSc.(Hons. in Information Technology)(Specialized in Computer Systems & Networking)</div>
@@ -228,7 +249,7 @@
             </div>
           </div>
 		  
-		  <div class="resume-item d-flex flex-column flex-md-row">
+		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Sri Lanka Institute of Information Technology(SLIIT), Sri Lanka</h3>
               <div class="subheading mb-3">Certificate in Advanced Linux Administration</div>
@@ -239,7 +260,7 @@
             </div>
           </div>
 		  
-		  <div class="resume-item d-flex flex-column flex-md-row">
+		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Sri Lanka Institute of Information Technology(SLIIT), Sri Lanka</h3>
               <div class="subheading mb-3">Cisco Certified Network Associate(CCNA)(academic) curriculum completed</div>
@@ -262,6 +283,10 @@
           </div>
 
         </div>
+</div>
+
+    
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
@@ -338,19 +363,33 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="volunteer">
+      
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="volunteer">
   <div class="my-auto">
     <h2 class="mb-5">Volunteer Experiences</h2>
 
-    <div class="resume-item mb-4">
-      <h3 class="mb-0">Volunteer Retail Assistant</h3>
-      <div class="subheading mb-2">New Zealand Red Cross – Hamilton East</div>
-      <p>
-        Supported daily retail operations by assisting customers, operating EFTPOS,
+    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+      <div class="resume-content mr-auto">
+        <h3 class="mb-0">Volunteer Retail Assistant</h3>
+        <div class="subheading mb-3">New Zealand Red Cross – Hamilton East</div>
+        <p>
+          Supported daily retail operations by assisting customers, operating EFTPOS,
         sorting and preparing donated goods, and maintaining tidy shop-floor layouts.
         Gained hands-on experience in customer service, teamwork, and adapting to New Zealand
         workplace culture in a fast-paced environment.
-      </p>
+        </p>
+        <ul class="mb-0">
+          <li>Provided friendly customer service and assisted customers with item selection.</li>
+          <li>Operated EFTPOS/till (as trained) and supported general store operations.</li>
+          <li>Sorted, quality-checked, and prepared donated goods for sale.</li>
+          <li>Supported visual merchandising and maintained tidy shop-floor layouts.</li>
+        </ul>
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">Oct 2025 – Present</span>
+      </div>
     </div>
   
     <!--<div class="resume-item mb-4">
