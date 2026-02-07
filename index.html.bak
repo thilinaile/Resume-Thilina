@@ -23,7 +23,16 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
-  </head>
+  <style>
+/* Indent Service Appreciations as a child of Work Experience */
+.navbar-nav .nav-item.sub-nav > .nav-link {
+  padding-left: 2.5rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+</style>
+
+</head>
 
   <body id="page-top">
 
@@ -44,6 +53,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
+          </li>
+          <li class="nav-item sub-nav">
+            <a class="nav-link js-scroll-trigger" href="#appreciations">Service Appreciations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -219,9 +231,90 @@
         <span class="text-primary">Nov 2025 – Present</span>
       </div>
     </div>
+</div>
 
 
       </section>
+
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="appreciations">
+        <div class="my-auto">
+<hr class="my-5">
+
+          
+          <h3 class="mb-4">Service Appreciations</h3>
+
+          <p class="mb-4 text-muted">
+            A few moments of recognition that highlight my growth, commitment, and contributions
+            throughout my professional journey.
+          </p>
+
+          <div class="resume-item mb-5">
+
+            <h4 class="mb-2">Service Appreciation – Sampath Bank PLC</h4>
+            
+            <p class="mb-3">
+              Recognition received for consistent commitment, teamwork, and reliability demonstrated
+              during my time at <strong>Sampath Bank PLC</strong>. The appreciation reflects my contribution
+              to daily operations, collaborative work with colleagues, and focus on maintaining high
+              service standards in a demanding production environment.
+            </p>
+
+
+            
+            <!-- Click-to-zoom gallery (thumbnails) -->
+            <div class="row">
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-1.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-1.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 1)">
+                  <img src="img/appreciations/sampath-appreciation-1.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 1) – Sampath Bank PLC">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-2.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-2.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 2)">
+                  <img src="img/appreciations/sampath-appreciation-2.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 2) – Sampath Bank PLC">
+                </a>
+              </div>
+
+              <div class="col-12 col-md-4 mb-3">
+                <a href="img/appreciations/sampath-appreciation-3.jpg"
+                   class="appreciation-thumb"
+                   data-toggle="modal"
+                   data-target="#appreciationModal"
+                   data-img="img/appreciations/sampath-appreciation-3.jpg"
+                   data-title="Service Appreciation – Sampath Bank PLC (Page 3)">
+                  <img src="img/appreciations/sampath-appreciation-3.jpg"
+                       class="img-fluid img-thumbnail"
+                       alt="Service Appreciation Letter (Page 3) – Sampath Bank PLC">
+                </a>
+              </div>
+            </div>
+
+            <p class="text-muted mb-0" style="font-size: 0.95rem;">
+              Tip: Click any thumbnail to view the full-size page.
+            </p></div>
+        </div>
+      </section>
+
+      
+
+      <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
@@ -280,14 +373,8 @@
             <div class="resume-date text-md-right">
               <span class="text-primary">2006</span>
             </div>
-          </div>
 
-        </div>
-</div>
-
-    
-
-      </section>
+</section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
@@ -498,6 +585,44 @@
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
 
-  </body>
+  
+  <!-- Appreciation Gallery Modal -->
+  <div class="modal fade" id="appreciationModal" tabindex="-1" role="dialog" aria-labelledby="appreciationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="appreciationModalLabel">Service Appreciation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img id="appreciationModalImg" src="" class="img-fluid" alt="Service Appreciation full-size">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    // Click-to-zoom gallery for Service Appreciations
+    (function() {
+      if (!window.jQuery) return;
+      $(document).on('click', '.appreciation-thumb', function(e) {
+        e.preventDefault();
+        var img = $(this).data('img');
+        var title = $(this).data('title') || 'Service Appreciation';
+        $('#appreciationModalLabel').text(title);
+        $('#appreciationModalImg').attr('src', img);
+      });
+
+      // Clear image when modal closes (prevents showing old image briefly)
+      $('#appreciationModal').on('hidden.bs.modal', function() {
+        $('#appreciationModalImg').attr('src', '');
+      });
+    })();
+  </script>
+
+</body>
 
 </html>
