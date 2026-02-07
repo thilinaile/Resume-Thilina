@@ -416,18 +416,29 @@
       </div>
     </div>
   
-    <!--<div class="resume-item mb-4">
-      <h3 class="mb-0">Volunteer Experience (Add Title Here)</h3>
-      <div class="subheading mb-2">Organisation Name – Location</div>
-      <p class="mb-2">
-        Add 2–3 lines describing what you did, the environment (teamwork, customer service, events, logistics, etc.), and what you achieved.
-        Keep it simple and results-focused.
-      </p>
-      <img src="img/volunteer-2.png" class="img-fluid mb-3" alt="Volunteer activity screenshot">
-      <p class="mb-0">
-        <em>Tip:</em> Place your screenshot image inside the <code>img</code> folder and name it <code>volunteer-2.png</code> (or change the filename here).
-      </p>
-    </div> -->
+    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+	  <div class="resume-content mr-auto">
+    <h3 class="mb-0">Volunteer Photographer &amp; Event Support</h3>
+    <div class="subheading mb-3">Hamilton Empathetic Nexus (HEN) – Community Events</div>
+
+    <p>
+      Volunteered as the primary photographer for community events, supporting event planning,
+      coordination, and live coverage. Responsible for capturing key moments, managing on-site
+      photography, and collaborating with organisers to deliver visual content for community
+      engagement and promotion. Recognised with a Certificate of Appreciation for creativity,
+      teamwork, and contribution to the success of the event.
+    </p>
+
+    <p class="mb-2"><strong>Certificate of Appreciation</strong></p>
+    <img src="img/volunteer/hen-certificate.jpg"
+         class="img-fluid mb-3"
+         alt="Certificate of Appreciation – Hamilton Empathetic Nexus">
+	</div>
+
+	<div class="resume-date text-md-right">
+    <span class="text-primary">Nov 2025</span>
+	</div>
+	</div>
 
 </div>
 </section>
