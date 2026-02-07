@@ -31,9 +31,16 @@
   opacity: 0.9;
 }
 
-/* Service Appreciation thumbnail sizing (keeps full-size for zoom) */
+/* Service Appreciation thumbnail sizing (larger for readability, keeps zoom) */
 .appreciation-thumb img {
-  max-height: 160px;
+  max-height: 220px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Volunteer certificate thumbnail sizing */
+.volunteer-cert-thumb {
+  max-height: 260px;
   width: auto;
   object-fit: contain;
 }
@@ -526,7 +533,7 @@
     <p class="mb-2"><strong>Certificate of Appreciation</strong></p>
     <img src="img/volunteer/HEN-certificate.jpg"
          class="img-fluid mb-3"
-         alt="Certificate of Appreciation – Hamilton Empathetic Nexus">
+         alt="Certificate of Appreciation – Hamilton Empathetic Nexus" class="img-fluid volunteer-cert-thumb">
 	</div>
 
 	<div class="resume-date text-md-right">
