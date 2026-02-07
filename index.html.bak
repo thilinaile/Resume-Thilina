@@ -348,21 +348,6 @@
       <li><i class="fa-li fa fa-check"></i><strong>Data &amp; Visualisation:</strong> Power BI, Orange</li>
     </ul>
 
-    <!-- Tools I Use -->
-    <div class="subheading mb-3">Tools I Use</div>
-    <ul class="list-inline list-icons mb-4">
-      <li class="list-inline-item"><i class="devicons devicons-windows"></i></li>
-      <li class="list-inline-item"><i class="devicons devicons-linux"></i></li>
-      <li class="list-inline-item"><i class="devicons devicons-aws"></i></li>
-      <li class="list-inline-item"><i class="devicons devicons-visualstudio"></i></li>
-    </ul>
-
-    <ul class="mb-4">
-      <li>Microsoft 365 (Word, Excel, PowerPoint)</li>
-      <li>Power BI, Orange (analytics &amp; visualisation)</li>
-      <li>EVE-NG / VMware / VirtualBox(virtual lab environments)</li>
-      <li>Windows/Linux administration toolsets (patching, monitoring, troubleshooting)</li>
-    </ul>
 
     <!-- Soft Skills -->
     <div class="subheading mb-3">Soft Skills</div>
@@ -372,6 +357,22 @@
       <li><i class="fa-li fa fa-check"></i><strong>Teamwork:</strong> effective collaboration across technical and non-technical teams</li>
       <li><i class="fa-li fa fa-check"></i><strong>Customer focus:</strong> professional support mindset from production + NZ roles</li>
       <li><i class="fa-li fa fa-check"></i><strong>Attention to detail:</strong> accurate work under deadlines and operational pressure</li>
+    </ul>
+	
+	<!-- Tools I Use -->
+    <div class="subheading mb-3">Tools I Use</div>
+    <ul class="list-inline list-icons mb-4">
+      <li class="list-inline-item"><i class="devicons devicons-windows"></i></li>
+      <li class="list-inline-item"><i class="devicons devicons-linux"></i></li>
+      <li class="list-inline-item"><i class="devicons devicons-vmware"></i></li>
+      <li class="list-inline-item"><i class="devicons devicons-eve-ng"></i></li>
+    </ul>
+
+    <ul class="mb-4">
+      <li>Microsoft 365 (Word, Excel, PowerPoint)</li>
+      <li>Power BI, Orange (analytics &amp; visualisation)</li>
+      <li>EVE-NG / VMware / VirtualBox(virtual lab environments)</li>
+      <li>Windows/Linux administration toolsets (patching, monitoring, troubleshooting)</li>
     </ul>
 
   </div>
