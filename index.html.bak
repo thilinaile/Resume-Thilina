@@ -30,6 +30,20 @@
   font-size: 0.95rem;
   opacity: 0.9;
 }
+
+/* Service Appreciation thumbnail sizing (larger for readability, keeps zoom) */
+.appreciation-thumb img {
+  max-height: 220px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Volunteer certificate thumbnail sizing */
+.volunteer-cert-thumb {
+  max-height: 260px;
+  width: auto;
+  object-fit: contain;
+}
 </style>
 
 </head>
@@ -116,9 +130,9 @@
     </p>
 
     <p class="mb-4">
-      Currently seeking opportunities in <strong>IT Support</strong>, <strong>Junior Engineer</strong>, or
-	  <strong>Systems Administrator</strong> roles within New Zealand, where I can contribute my experience,
-      continue learning, and grow within a supportive technical team.
+      I’m now looking for opportunities in
+      <strong>IT Support, Junior Engineer, or Systems Administrator roles</strong>, where I can contribute my experience,
+      keep learning, and grow within a supportive technical team.
     </p>
     <ul class="list-inline list-social-icons mb-0">
       <li class="list-inline-item">
@@ -519,7 +533,7 @@
     <p class="mb-2"><strong>Certificate of Appreciation</strong></p>
     <img src="img/volunteer/HEN-certificate.jpg"
          class="img-fluid mb-3"
-         alt="Certificate of Appreciation – Hamilton Empathetic Nexus">
+         alt="Certificate of Appreciation – Hamilton Empathetic Nexus" class="img-fluid volunteer-cert-thumb">
 	</div>
 
 	<div class="resume-date text-md-right">
